@@ -24,6 +24,7 @@ app.post('/', (req, res) => {
         : 'World';
 
     console.log(`Hello ${name}!`);
+    console.log(`attributes ${JSON.stringify(pubSubMessage.attributes, null, 4)}`);
     res.status(204).send();
 });
 
