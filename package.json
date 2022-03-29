@@ -1,0 +1,27 @@
+{
+  "name": "cloud-run-with-pub-sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timowang1991/cloud-run-with-pub-sub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timowang1991/cloud-run-with-pub-sub/issues"
+  },
+  "homepage": "https://github.com/timowang1991/cloud-run-with-pub-sub#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
