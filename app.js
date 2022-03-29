@@ -32,6 +32,6 @@ app.post('/log', (req, res) => {
     res.send(req.body);
 });
 
-app.listen(443, () => {
-    console.log('listening on port 443')
+app.listen(8080, () => {
+    console.log('listening on port 8080')
 });

@@ -6,8 +6,8 @@ COPY package*.json ./
 
 RUN npm install --only=prod
 
-COPY src/ src/
+COPY . .
 
-EXPOSE 443
+EXPOSE 8080
 
 CMD [ "npm", "start" ]
