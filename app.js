@@ -18,6 +18,8 @@ app.post('/', (req, res) => {
         return;
     }
 
+    console.log('original body', JSON.stringify(req.body, null, 4));
+
     const pubSubMessage = req.body.message;
     const name = pubSubMessage.data
         ? Buffer.from(pubSubMessage.data, 'base64').toString().trim()
